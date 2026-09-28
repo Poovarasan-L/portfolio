@@ -171,7 +171,7 @@ export const portfolioData = {
 
   experience: [
     {
-      period: "2023 - Present",
+      period: "2021 - Present",
       role: "Full-Stack Software Engineer",
       organization: "Enterprise & Full-Stack Systems Development",
       description: "Designing end-to-end multi-tier software architectures, building robust ASP.NET Core and C# backends, and delivering interactive web frontends with React and Angular.",
@@ -183,10 +183,10 @@ export const portfolioData = {
       ]
     },
     {
-      period: "2020 - 2024",
+      period: "2017 - 2021",
       role: "Bachelor of Engineering in Computer Science",
-      organization: "University Education",
-      description: "Rigorous coursework in Software Engineering, Object-Oriented Programming (C# / Java), Database Management Systems (SQL), Computer Networks, and Distributed Systems.",
+      organization: "University Education (Graduated 2021)",
+      description: "Comprehensive coursework in Software Engineering, Object-Oriented Programming (C# / Java), Database Management Systems (SQL), Computer Networks, and Distributed Systems.",
       highlights: [
         "Specialized in N-Tier software design, database modeling, and scalable web architecture.",
         "Led capstone engineering projects combining backend web APIs with modern single page applications.",
