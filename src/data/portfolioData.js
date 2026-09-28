@@ -6,13 +6,13 @@ export const portfolioData = {
     location: "Tamil Nadu, India",
     email: "poovarasan.dev@gmail.com",
     avatarUrl: "https://avatars.githubusercontent.com/u/165838521?v=4",
-    tagline: "Architecting robust backend services, scalable distributed systems, and sleek, high-performance web applications.",
+    tagline: "Architecting enterprise multi-tier systems, robust .NET & cloud backends, and modern SPAs with React & Angular.",
     bio: [
-      "I am a passionate Full-Stack Software Engineer who loves bridging the gap between elegant frontend interfaces and resilient, high-throughput backend systems.",
-      "With a strong foundation in modern web frameworks, API design, database modeling, and DevOps workflows, I focus on shipping clean, maintainable code that solves real-world challenges.",
-      "When I am not writing code, I am exploring cloud-native architectures, contributing to developer tools, or refining user experiences."
+      "I am a results-driven Full-Stack Software Engineer with specialized experience developing scalable enterprise applications, robust RESTful APIs, and modern user-centric web frontends.",
+      "My core engineering expertise centers around C#, .NET Core, ASP.NET Web APIs, N-tier enterprise architectures, relational database engineering (SQL Server), along with modern single-page applications built using React and Angular.",
+      "I pride myself on writing clean, modular code following SOLID principles, designing maintainable Data Access Layers (DAL), and automating deployments with modern CI/CD and cloud toolchains."
     ],
-    resumeUrl: "#contact" // Replace with '/resume.pdf' when you place your PDF in the public folder
+    resumeUrl: "#contact"
   },
 
   socials: {
@@ -23,175 +23,194 @@ export const portfolioData = {
   },
 
   metrics: [
-    { label: "Architecture", value: "Full-Stack", detail: "End-to-end development" },
-    { label: "Core Stack", value: "React & Node", detail: "TypeScript & modern web" },
-    { label: "Reliability", value: "99.9%", detail: "Clean, robust code quality" },
-    { label: "Mindset", value: "Problem Solver", detail: "Continuous engineering growth" }
+    { label: "Core Backend", value: "C# / .NET", detail: "Enterprise N-tier & APIs" },
+    { label: "Modern Frontend", value: "React & Angular", detail: "TypeScript & SPAs" },
+    { label: "Databases", value: "SQL Server", detail: "Schemas, DAL & Optimization" },
+    { label: "Cloud & CI/CD", value: "AWS & Actions", detail: "Automated deployment" }
   ],
 
   skillCategories: [
     {
-      id: "frontend",
-      name: "Frontend Development",
-      description: "Building responsive, accessible, and high-performance interactive interfaces",
+      id: "backend",
+      name: "Backend & Systems Architecture",
+      description: "Designing multi-tier enterprise systems, RESTful APIs, and business logic layers",
       skills: [
-        { name: "React.js", level: "Advanced", icon: "Code2" },
-        { name: "TypeScript", level: "Proficient", icon: "FileCode" },
-        { name: "JavaScript (ES6+)", level: "Advanced", icon: "Braces" },
-        { name: "Tailwind CSS", level: "Advanced", icon: "Palette" },
-        { name: "HTML5 / Semantic CSS", level: "Expert", icon: "Layout" },
-        { name: "Vite / Next.js", level: "Proficient", icon: "Zap" },
-        { name: "State Management (Redux/Zustand)", level: "Proficient", icon: "Cpu" },
-        { name: "Responsive UI & A11y", level: "Advanced", icon: "Smartphone" }
+        { name: "C# / .NET Core", level: "Expert", icon: "Server" },
+        { name: "ASP.NET Web API", level: "Expert", icon: "Boxes" },
+        { name: "N-Tier Clean Architecture", level: "Advanced", icon: "Layers" },
+        { name: "Data Access Layer (DAL)", level: "Advanced", icon: "HardDrive" },
+        { name: "Entity Framework / ADO.NET", level: "Advanced", icon: "Database" },
+        { name: "RESTful API Architecture", level: "Expert", icon: "Network" },
+        { name: "Node.js & Express", level: "Proficient", icon: "Cpu" },
+        { name: "Microservices & JWT Auth", level: "Advanced", icon: "Key" }
       ]
     },
     {
-      id: "backend",
-      name: "Backend & Systems",
-      description: "Designing RESTful APIs, microservices, and reliable server-side architecture",
+      id: "frontend",
+      name: "Frontend Development",
+      description: "Building responsive, modern single-page web applications with React and Angular",
       skills: [
-        { name: "Node.js", level: "Advanced", icon: "Server" },
-        { name: "Express.js", level: "Advanced", icon: "Boxes" },
-        { name: "RESTful API Architecture", level: "Advanced", icon: "Network" },
-        { name: "Python", level: "Proficient", icon: "Terminal" },
-        { name: "Authentication (JWT / OAuth2)", level: "Proficient", icon: "Key" },
-        { name: "Microservices", level: "Intermediate", icon: "Layers" },
-        { name: "GraphQL Basics", level: "Intermediate", icon: "Share2" },
-        { name: "WebSocket & Realtime", level: "Proficient", icon: "Activity" }
+        { name: "React.js", level: "Advanced", icon: "Code2" },
+        { name: "Angular", level: "Advanced", icon: "Zap" },
+        { name: "TypeScript", level: "Advanced", icon: "FileCode" },
+        { name: "JavaScript (ES6+)", level: "Expert", icon: "Braces" },
+        { name: "Tailwind CSS", level: "Advanced", icon: "Palette" },
+        { name: "HTML5 / Semantic CSS", level: "Expert", icon: "Layout" },
+        { name: "Vite / Modern Tooling", level: "Advanced", icon: "Zap" },
+        { name: "RxJS & State Management", level: "Proficient", icon: "Cpu" }
       ]
     },
     {
       id: "databases",
-      name: "Databases & Caching",
-      description: "Data modeling, relational schemas, indexing, and performant caching",
+      name: "Databases & Data Modeling",
+      description: "Relational schema design, stored procedures, data querying, and performance tuning",
       skills: [
+        { name: "SQL Server (MSSQL)", level: "Expert", icon: "Database" },
+        { name: "Database Schemas & DAL", level: "Advanced", icon: "HardDrive" },
+        { name: "SQL Queries & Procedures", level: "Advanced", icon: "FileCode" },
         { name: "PostgreSQL", level: "Proficient", icon: "Database" },
-        { name: "MongoDB", level: "Advanced", icon: "Database" },
-        { name: "MySQL", level: "Proficient", icon: "HardDrive" },
-        { name: "Redis", level: "Proficient", icon: "Flame" },
-        { name: "Prisma ORM", level: "Proficient", icon: "Link" },
-        { name: "Mongoose", level: "Advanced", icon: "FolderGit2" }
+        { name: "MySQL", level: "Proficient", icon: "Database" },
+        { name: "Redis Caching", level: "Proficient", icon: "Flame" }
       ]
     },
     {
       id: "devops",
-      name: "DevOps & Tooling",
-      description: "Version control, CI/CD automation, cloud deployment, and developer toolchains",
+      name: "Cloud & DevOps Tooling",
+      description: "Automated deployment pipelines, cloud hosting, and developer tooling",
       skills: [
-        { name: "Git & GitHub", level: "Advanced", icon: "GitBranch" },
-        { name: "Docker", level: "Proficient", icon: "Container" },
-        { name: "GitHub Actions CI/CD", level: "Proficient", icon: "PlayCircle" },
-        { name: "Linux & Bash Scripting", level: "Proficient", icon: "TerminalSquare" },
-        { name: "Postman / API Testing", level: "Advanced", icon: "Send" },
-        { name: "Vercel / Netlify / GH Pages", level: "Advanced", icon: "Cloud" }
+        { name: "AWS (CodeDeploy / Services)", level: "Proficient", icon: "Cloud" },
+        { name: "GitHub Actions CI/CD", level: "Advanced", icon: "PlayCircle" },
+        { name: "Git & Version Control", level: "Expert", icon: "GitBranch" },
+        { name: "PowerShell & Scripting", level: "Advanced", icon: "TerminalSquare" },
+        { name: "Docker Containerization", level: "Proficient", icon: "Container" },
+        { name: "Postman & API Testing", level: "Expert", icon: "Send" }
       ]
     }
   ],
 
   projects: [
     {
-      id: "cloudforge",
-      title: "CloudForge",
-      subtitle: "Full-Stack Cloud & Service Monitoring Dashboard",
+      id: "enterprise-multi-tier-platform",
+      title: "Enterprise Multi-Tier Web & API Platform",
+      subtitle: "N-Tier Distributed Architecture with C#, ASP.NET & SQL Server",
       category: "fullstack",
-      description: "An interactive operations dashboard that monitors server metrics, container health, and API response latencies with real-time charting and alerts.",
-      techStack: ["React", "Node.js", "Tailwind CSS", "Chart.js", "Express", "Docker"],
+      description: "Architected an enterprise-grade multi-tier web platform separating presentation, business logic, data access layers (DAL), and database models. Designed for high availability, transactional integrity, and scalable API consumption.",
+      techStack: ["C#", "ASP.NET Web API", "Data Access Layer (DAL)", "SQL Server", "Clean Architecture", "Custom Converters"],
       githubUrl: "https://github.com/Poovarasan-L",
       liveUrl: "https://github.com/Poovarasan-L",
       featured: true,
-      stats: { stars: "Fast", metric: "Real-time SSE" }
+      stats: { metric: "N-Tier Enterprise" },
+      isPrivate: true
     },
     {
-      id: "pulseapi",
-      title: "PulseAPI Platform",
-      subtitle: "High-Throughput API Gateway & Analytics Service",
+      id: "cloud-analytics-deployment-engine",
+      title: "Cloud Analytics & Deployment Engine",
+      subtitle: "High-Throughput Analytics Service with Automated AWS CI/CD",
       category: "backend",
-      description: "Engineered a microservice gateway handling request throttling, JWT token rotation, structured logging, and Redis-backed caching for sub-millisecond retrieval.",
-      techStack: ["Node.js", "Express", "Redis", "PostgreSQL", "Docker", "JWT"],
+      description: "Engineered scalable cloud analytics services and automated deployment pipelines using AWS CodeDeploy specifications, server-side data processing pipelines, and deployment automation scripts.",
+      techStack: ["C#", ".NET", "AWS CodeDeploy", "Cloud Services", "PowerShell", "Automation"],
       githubUrl: "https://github.com/Poovarasan-L",
       liveUrl: "https://github.com/Poovarasan-L",
       featured: true,
-      stats: { stars: "Sub-ms", metric: "Redis Caching" }
+      stats: { metric: "AWS Automated CI/CD" },
+      isPrivate: true
     },
     {
-      id: "nexus-ui",
-      title: "Nexus Glassmorphic UI Kit",
-      subtitle: "Modern Design System for Web Applications",
+      id: "smart-asset-management-system",
+      title: "Smart Asset & Locker Management System",
+      subtitle: "Centralized Hardware Management & Secure Access Control Solution",
+      category: "fullstack",
+      description: "Developed a centralized management solution for physical asset allocation, real-time status monitoring, administrative control panels, and secure device verification workflows.",
+      techStack: [".NET", "C#", "SQL Server", "RESTful APIs", "Device Management"],
+      githubUrl: "https://github.com/Poovarasan-L",
+      liveUrl: "https://github.com/Poovarasan-L",
+      featured: true,
+      stats: { metric: "Smart Access Control" },
+      isPrivate: true
+    },
+    {
+      id: "fullstack-react-dotnet-app",
+      title: "Full-Stack React & ASP.NET Core Solution",
+      subtitle: "Decoupled Single Page Application & RESTful API Backend",
+      category: "fullstack",
+      description: "Built an end-to-end modern web application pairing a responsive React client with a high-throughput ASP.NET Core Web API server, featuring secure token authentication and modular service architecture.",
+      techStack: ["React", "ASP.NET Core", "C#", "TypeScript", "REST APIs", "Tailwind CSS"],
+      githubUrl: "https://github.com/Poovarasan-L",
+      liveUrl: "https://github.com/Poovarasan-L",
+      featured: false,
+      stats: { metric: "React + ASP.NET Core" },
+      isPrivate: true
+    },
+    {
+      id: "angular-enterprise-portal",
+      title: "Angular Enterprise Service Portal",
+      subtitle: "Component-Driven SPA with Backend API Integration",
       category: "frontend",
-      description: "A reusable, accessible component library crafted with Tailwind CSS and React featuring frosted glass surfaces, glowing borders, and accessible keyboard navigation.",
-      techStack: ["React", "Tailwind CSS", "Vite", "Lucide Icons", "WCAG 2.1"],
+      description: "Engineered an interactive Angular web application featuring modular components, reactive forms, dynamic data binding, and seamless integration with backend REST endpoints.",
+      techStack: ["Angular", "TypeScript", "C# Web API", "RxJS", "SCSS"],
       githubUrl: "https://github.com/Poovarasan-L",
       liveUrl: "https://github.com/Poovarasan-L",
-      featured: true,
-      stats: { stars: "100%", metric: "Accessible" }
+      featured: false,
+      stats: { metric: "Angular + RxJS" },
+      isPrivate: true
     },
     {
-      id: "dev-domain-registry",
-      title: "Developer Domain Automation",
+      id: "developer-domain-automation",
+      title: "Developer Domain & DNS Registry Automation",
       subtitle: "Automated Subdomain DNS Registry & PR Automation",
       category: "fullstack",
-      description: "A toolchain enabling automated validation, DNS record registration, and PR workflow synchronization for developer subdomain initiatives.",
-      techStack: ["JavaScript", "GitHub API", "Node.js", "CI/CD Actions"],
+      description: "Automated DNS record registration and pull request validation workflows for developer subdomains using GitHub Actions and web APIs.",
+      techStack: ["JavaScript", "GitHub Actions", "DNS / Web APIs", "CI/CD"],
       githubUrl: "https://github.com/Poovarasan-L/register",
       liveUrl: "https://github.com/Poovarasan-L/register",
       featured: false,
-      stats: { stars: "Automated", metric: "GitHub Actions" }
-    },
-    {
-      id: "aegis-auth",
-      title: "Aegis Secure Auth",
-      subtitle: "Zero-Trust Authentication & Session Microservice",
-      category: "backend",
-      description: "Lightweight plug-and-play authentication engine offering dual-token JWT verification, password hashing with Argon2, and rate-limiting against brute force attacks.",
-      techStack: ["Node.js", "MongoDB", "Express", "Argon2", "Jest"],
-      githubUrl: "https://github.com/Poovarasan-L",
-      liveUrl: "https://github.com/Poovarasan-L",
-      featured: false,
-      stats: { stars: "Secure", metric: "Argon2 + JWT" }
+      stats: { metric: "Automated CI/CD" },
+      isPrivate: false
     }
   ],
 
   experience: [
     {
       period: "2023 - Present",
-      role: "Full-Stack Software Engineer & Builder",
-      organization: "Engineering Projects & Open Source",
-      description: "Designing end-to-end full-stack architectures, writing scalable backend services, and building responsive client applications with React and Node.js.",
+      role: "Full-Stack Software Engineer",
+      organization: "Enterprise & Full-Stack Systems Development",
+      description: "Designing end-to-end multi-tier software architectures, building robust ASP.NET Core and C# backends, and delivering interactive web frontends with React and Angular.",
       highlights: [
-        "Architected modular web applications using Vite, React, and Tailwind CSS with sub-second page loads.",
-        "Implemented secure RESTful endpoints and optimized database querying across relational and document stores.",
-        "Established CI/CD automated deployment pipelines with GitHub Actions."
+        "Architected multi-tier enterprise systems with dedicated Data Access Layers (DAL) and clean relational database schemas.",
+        "Implemented high-performance RESTful Web APIs with secure token authentication and optimized data querying.",
+        "Delivered modern SPAs using React and Angular with responsive layouts and component modularity.",
+        "Configured automated build and deployment pipelines using GitHub Actions and AWS deployment specifications."
       ]
     },
     {
       period: "2020 - 2024",
       role: "Bachelor of Engineering in Computer Science",
       organization: "University Education",
-      description: "Comprehensive coursework in Software Engineering, Object-Oriented Design, Computer Networks, Database Management Systems, and Cloud Computing.",
+      description: "Rigorous coursework in Software Engineering, Object-Oriented Programming (C# / Java), Database Management Systems (SQL), Computer Networks, and Distributed Systems.",
       highlights: [
-        "Focused on Distributed Systems, Cloud Architecture, and Web Technologies.",
-        "Led team capstone engineering projects incorporating modern full-stack frameworks.",
-        "Active participant in technical symposiums, hackathons, and developer workshops."
+        "Specialized in N-Tier software design, database modeling, and scalable web architecture.",
+        "Led capstone engineering projects combining backend web APIs with modern single page applications.",
+        "Active participant in technical code symposiums and hands-on developer workshops."
       ]
     }
   ],
 
   coreValues: [
     {
-      title: "Clean & Maintainable Code",
-      description: "Writing self-documenting, modular code following SOLID principles, making systems easy to scale and refactor."
+      title: "Clean N-Tier Architecture",
+      description: "Separating business logic, presentation, and data access layers to build systems that scale cleanly without technical debt."
     },
     {
-      title: "Performance by Default",
-      description: "Optimizing bundle sizes, minimizing unnecessary re-renders, and implementing intelligent caching for maximum speed."
+      title: "Robust Backend Reliability",
+      description: "Engineering resilient APIs with defensive input validation, structured exception handling, and optimized database queries."
     },
     {
-      title: "Modern Developer Experience",
-      description: "Leveraging type safety, fast Vite HMR, and automated CI/CD checks to ship features with high confidence."
+      title: "Modern Full-Stack Agility",
+      description: "Seamlessly bridging powerful C# / .NET server capabilities with sleek, fluid React and Angular user interfaces."
     },
     {
-      title: "User-Centered Engineering",
-      description: "Crafting intuitive layouts with fluid feedback, dark mode comfort, and accessible interaction patterns."
+      title: "Automated Deployment & DX",
+      description: "Leveraging CI/CD pipelines, containerization, and automated scripts for frictionless, high-confidence releases."
     }
   ]
 };

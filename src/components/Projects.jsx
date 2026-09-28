@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ExternalLink, Github, FolderGit2, Star, Sparkles, Layers } from 'lucide-react';
+import { ExternalLink, Github, FolderGit2, Lock, Globe, Layers } from 'lucide-react';
 import { portfolioData } from '../data/portfolioData';
 
 export default function Projects() {
@@ -14,8 +14,8 @@ export default function Projects() {
   const filterTabs = [
     { id: 'all', label: 'All Projects' },
     { id: 'fullstack', label: 'Full-Stack' },
-    { id: 'frontend', label: 'Frontend' },
-    { id: 'backend', label: 'Backend & APIs' },
+    { id: 'backend', label: 'Backend & Cloud' },
+    { id: 'frontend', label: 'Frontend & SPAs' },
   ];
 
   return (
@@ -32,7 +32,7 @@ export default function Projects() {
             Featured <span className="gradient-text">Engineering Projects</span>
           </h2>
           <p className="text-slate-400 text-sm sm:text-base leading-relaxed">
-            Real-world applications showcasing full-stack integration, robust APIs, and modern user experiences.
+            Enterprise multi-tier systems, cloud services, and single-page web applications built for performance and scale.
           </p>
         </div>
 
@@ -61,32 +61,28 @@ export default function Projects() {
               className="glass-card rounded-2xl p-6 flex flex-col justify-between border border-slate-800/80 hover:border-cyan-500/40 transition-all duration-300 group"
             >
               <div>
-                {/* Card Top: Icon & Links */}
+                {/* Card Top: Icon & Privacy Badge */}
                 <div className="flex items-center justify-between mb-4">
                   <div className="w-12 h-12 rounded-xl bg-slate-800/90 border border-slate-700/80 flex items-center justify-center text-cyan-400 group-hover:text-cyan-300 group-hover:border-cyan-500/40 transition-colors">
                     <FolderGit2 className="w-6 h-6" />
                   </div>
                   
-                  <div className="flex items-center gap-2">
+                  {project.isPrivate ? (
+                    <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-slate-900 border border-slate-700 text-[11px] font-mono text-slate-400">
+                      <Lock className="w-3 h-3 text-amber-400/90" />
+                      <span>Enterprise Repo</span>
+                    </span>
+                  ) : (
                     <a
                       href={project.githubUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="p-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-lg transition-colors"
-                      title="GitHub Repository"
+                      className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-cyan-950/60 border border-cyan-800 text-[11px] font-mono text-cyan-400 hover:border-cyan-600 transition-colors"
                     >
-                      <Github className="w-4 h-4" />
+                      <Globe className="w-3 h-3" />
+                      <span>Public</span>
                     </a>
-                    <a
-                      href={project.liveUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="p-2 text-slate-400 hover:text-cyan-400 hover:bg-slate-800 rounded-lg transition-colors"
-                      title="Live Preview / Details"
-                    >
-                      <ExternalLink className="w-4 h-4" />
-                    </a>
-                  </div>
+                  )}
                 </div>
 
                 {/* Subtitle / Category Badge */}
@@ -128,34 +124,43 @@ export default function Projects() {
                   ))}
                 </div>
 
-                <a
-                  href={project.githubUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full inline-flex items-center justify-center gap-2 py-2.5 rounded-xl bg-slate-900/90 hover:bg-slate-800 text-xs font-semibold text-slate-200 hover:text-white border border-slate-700/80 hover:border-slate-600 transition-all duration-200"
-                >
-                  <span>Explore Repository</span>
-                  <ExternalLink className="w-3.5 h-3.5 text-cyan-400" />
-                </a>
+                {project.isPrivate ? (
+                  <a
+                    href="#contact"
+                    className="w-full inline-flex items-center justify-center gap-2 py-2.5 rounded-xl bg-slate-900/90 hover:bg-slate-800 text-xs font-semibold text-slate-300 hover:text-white border border-slate-800 hover:border-slate-700 transition-all duration-200"
+                  >
+                    <Lock className="w-3.5 h-3.5 text-amber-400" />
+                    <span>Private Repo (Details on Request)</span>
+                  </a>
+                ) : (
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full inline-flex items-center justify-center gap-2 py-2.5 rounded-xl bg-slate-900/90 hover:bg-slate-800 text-xs font-semibold text-slate-200 hover:text-white border border-slate-700/80 hover:border-slate-600 transition-all duration-200"
+                  >
+                    <Github className="w-3.5 h-3.5 text-cyan-400" />
+                    <span>Explore Repository</span>
+                    <ExternalLink className="w-3 h-3 text-slate-400" />
+                  </a>
+                )}
               </div>
             </div>
           ))}
         </div>
 
-        {/* Bottom GitHub Callout */}
+        {/* Bottom Contact Callout */}
         <div className="mt-14 text-center">
           <div className="inline-flex items-center gap-3 p-4 rounded-2xl glass-panel border border-slate-800">
-            <Github className="w-5 h-5 text-cyan-400" />
+            <Lock className="w-4 h-4 text-cyan-400" />
             <span className="text-xs sm:text-sm text-slate-300">
-              Want to see more code experiments and contributions?
+              Need more architectural details or a live walkthrough of enterprise systems?
             </span>
             <a
-              href={portfolioData.socials.github}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#contact"
               className="text-xs font-semibold text-cyan-400 hover:text-cyan-300 hover:underline flex items-center gap-1"
             >
-              <span>Visit GitHub</span>
+              <span>Contact Me</span>
               <ExternalLink className="w-3.5 h-3.5" />
             </a>
           </div>
