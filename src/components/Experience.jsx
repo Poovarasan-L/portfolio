@@ -19,7 +19,7 @@ export default function Experience() {
             Journey & <span className="gradient-text">Milestones</span>
           </h2>
           <p className="text-slate-400 text-sm sm:text-base leading-relaxed">
-            Academic training in Computer Science paired with continuous full-stack software development.
+            Five years of professional .NET development, backed by a degree in Computer Science and Engineering.
           </p>
         </div>
 

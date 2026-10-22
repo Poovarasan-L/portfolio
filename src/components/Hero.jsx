@@ -80,7 +80,7 @@ export default function Hero() {
             {/* Quick Tech Highlights */}
             <div className="pt-4 flex flex-wrap items-center justify-center lg:justify-start gap-2 text-xs text-slate-400">
               <span className="font-mono text-slate-500 mr-1">Stack:</span>
-              {['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Tailwind CSS', 'Docker'].map((tech) => (
+              {['C#', 'ASP.NET Core', 'SQL Server', 'Azure', 'Angular', 'Docker'].map((tech) => (
                 <span 
                   key={tech}
                   className="px-2.5 py-1 rounded-md bg-slate-800/60 border border-slate-700/60 font-mono text-slate-300"
@@ -131,29 +131,29 @@ export default function Hero() {
                 </div>
                 <div className="pl-4 text-slate-300">
                   <span className="text-indigo-400">focusAreas</span>: [
-                  <span className="text-emerald-300">'Full-Stack Architecture'</span>,{' '}
+                  <span className="text-emerald-300">'Web APIs'</span>,{' '}
                   <span className="text-emerald-300">'Microservices'</span>,{' '}
-                  <span className="text-emerald-300">'Modern UI'</span>
+                  <span className="text-emerald-300">'Cloud & CI/CD'</span>
                   ],
                 </div>
                 <div className="pl-4 text-slate-300">
                   <span className="text-indigo-400">hardSkills</span>: &#123;
                 </div>
                 <div className="pl-8 text-slate-300">
-                  <span className="text-cyan-400">frontend</span>: [<span className="text-emerald-300">'React'</span>, <span className="text-emerald-300">'TypeScript'</span>, <span className="text-emerald-300">'Tailwind'</span>],
+                  <span className="text-cyan-400">frontend</span>: [<span className="text-emerald-300">'Angular'</span>, <span className="text-emerald-300">'Bootstrap'</span>, <span className="text-emerald-300">'jQuery'</span>],
                 </div>
                 <div className="pl-8 text-slate-300">
-                  <span className="text-cyan-400">backend</span>: [<span className="text-emerald-300">'Node.js'</span>, <span className="text-emerald-300">'Express'</span>, <span className="text-emerald-300">'Python'</span>],
+                  <span className="text-cyan-400">backend</span>: [<span className="text-emerald-300">'C#'</span>, <span className="text-emerald-300">'ASP.NET Core'</span>, <span className="text-emerald-300">'EF Core'</span>],
                 </div>
                 <div className="pl-8 text-slate-300">
-                  <span className="text-cyan-400">storage</span>: [<span className="text-emerald-300">'PostgreSQL'</span>, <span className="text-emerald-300">'MongoDB'</span>, <span className="text-emerald-300">'Redis'</span>]
+                  <span className="text-cyan-400">storage</span>: [<span className="text-emerald-300">'SQL Server'</span>, <span className="text-emerald-300">'MySQL'</span>, <span className="text-emerald-300">'PostgreSQL'</span>]
                 </div>
                 <div className="pl-4 text-slate-300">&#125;,</div>
                 <div className="pl-4 text-slate-300">
                   <span className="text-indigo-400">status</span>: <span className="text-emerald-400">'{personal.status}'</span>,
                 </div>
                 <div className="pl-4 text-slate-300">
-                  <span className="text-indigo-400">buildFuture</span>: () =&gt; <span className="text-yellow-300">"Ship reliable, elegant code 🚀"</span>
+                  <span className="text-indigo-400">buildFuture</span>: () =&gt; <span className="text-yellow-300">"Ship reliable, maintainable code"</span>
                 </div>
                 <div className="text-slate-400">&#125;;</div>
                 
@@ -162,23 +162,23 @@ export default function Hero() {
                   <span>engineer.buildFuture()</span>
                 </div>
                 <div className="text-yellow-300/90 font-medium pl-3">
-                  =&gt; "Ship reliable, elegant code 🚀"
+                  =&gt; "Ship reliable, maintainable code"
                 </div>
               </div>
 
               {/* Bottom Quick Feature Highlights */}
               <div className="bg-slate-900/80 px-4 py-3 border-t border-slate-800/80 grid grid-cols-3 gap-2 text-center text-xs">
                 <div>
-                  <div className="text-cyan-400 font-bold">End-to-End</div>
-                  <div className="text-[10px] text-slate-400">Full-Stack</div>
+                  <div className="text-cyan-400 font-bold">.NET Core</div>
+                  <div className="text-[10px] text-slate-400">Web APIs & MVC</div>
                 </div>
                 <div className="border-x border-slate-800">
-                  <div className="text-indigo-400 font-bold">Scalable</div>
-                  <div className="text-[10px] text-slate-400">Architecture</div>
+                  <div className="text-indigo-400 font-bold">Azure</div>
+                  <div className="text-[10px] text-slate-400">DevOps & CI/CD</div>
                 </div>
                 <div>
-                  <div className="text-emerald-400 font-bold">Fast & Lean</div>
-                  <div className="text-[10px] text-slate-400">Modern DX</div>
+                  <div className="text-emerald-400 font-bold">Optimized</div>
+                  <div className="text-[10px] text-slate-400">Performance tuning</div>
                 </div>
               </div>
 

@@ -14,7 +14,6 @@ export default function Projects() {
   const filterTabs = [
     { id: 'all', label: 'All Projects' },
     { id: 'fullstack', label: 'Full-Stack' },
-    { id: 'frontend', label: 'Frontend' },
     { id: 'backend', label: 'Backend & APIs' },
   ];
 
@@ -32,7 +31,7 @@ export default function Projects() {
             Featured <span className="gradient-text">Engineering Projects</span>
           </h2>
           <p className="text-slate-400 text-sm sm:text-base leading-relaxed">
-            Real-world applications showcasing full-stack integration, robust APIs, and modern user experiences.
+            Selected professional projects built with .NET, SQL Server and Azure.
           </p>
         </div>
 
@@ -67,8 +66,9 @@ export default function Projects() {
                     <FolderGit2 className="w-6 h-6" />
                   </div>
                   
+                  {(project.githubUrl || project.liveUrl) && (
                   <div className="flex items-center gap-2">
-                    <a
+                    {project.githubUrl && <a
                       href={project.githubUrl}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -76,8 +76,8 @@ export default function Projects() {
                       title="GitHub Repository"
                     >
                       <Github className="w-4 h-4" />
-                    </a>
-                    <a
+                    </a>}
+                    {project.liveUrl && <a
                       href={project.liveUrl}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -85,8 +85,9 @@ export default function Projects() {
                       title="Live Preview / Details"
                     >
                       <ExternalLink className="w-4 h-4" />
-                    </a>
+                    </a>}
                   </div>
+                  )}
                 </div>
 
                 {/* Subtitle / Category Badge */}
@@ -128,6 +129,7 @@ export default function Projects() {
                   ))}
                 </div>
 
+                {project.githubUrl && (
                 <a
                   href={project.githubUrl}
                   target="_blank"
@@ -137,6 +139,7 @@ export default function Projects() {
                   <span>Explore Repository</span>
                   <ExternalLink className="w-3.5 h-3.5 text-cyan-400" />
                 </a>
+                )}
               </div>
             </div>
           ))}

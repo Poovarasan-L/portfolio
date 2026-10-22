@@ -42,7 +42,7 @@ export default function Navbar() {
                 Poovarasan<span className="text-cyan-400">.dev</span>
               </span>
               <span className="text-[10px] text-slate-400 font-mono tracking-wider uppercase">
-                Full-Stack Engineer
+                .NET Developer
               </span>
             </div>
           </a>

@@ -26,7 +26,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-xs text-slate-400 mt-2 max-w-sm">
-              Full-Stack Software Engineer building scalable systems and modern web experiences.
+              Senior .NET Developer building secure, scalable web applications and APIs.
             </p>
           </div>
 

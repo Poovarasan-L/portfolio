@@ -54,7 +54,7 @@ export default function About() {
                 </div>
                 <div className="flex items-center gap-1.5">
                   <CheckCircle2 className="w-4 h-4 text-cyan-400" />
-                  <span>Open to Remote & Global Work</span>
+                  <span>Open to Coimbatore & Remote Roles</span>
                 </div>
               </div>
             </div>

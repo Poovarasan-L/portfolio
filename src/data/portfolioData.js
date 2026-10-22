@@ -1,177 +1,152 @@
 export const portfolioData = {
   personal: {
     name: "Poovarasan L",
-    role: "Full-Stack Software Engineer",
-    status: "Available for new opportunities & collaborations",
+    role: "Senior .NET Developer",
+    status: "Open to new opportunities",
     location: "Tamil Nadu, India",
-    email: "poovarasan.dev@gmail.com",
-    avatarUrl: "https://avatars.githubusercontent.com/u/165838521?v=4",
-    tagline: "Architecting robust backend services, scalable distributed systems, and sleek, high-performance web applications.",
+    email: "poovpoovarasan@gmail.com",
+    avatarUrl: "",
+    tagline: "Building secure, scalable web applications and APIs with ASP.NET Core, SQL Server and Azure.",
     bio: [
-      "I am a passionate Full-Stack Software Engineer who loves bridging the gap between elegant frontend interfaces and resilient, high-throughput backend systems.",
-      "With a strong foundation in modern web frameworks, API design, database modeling, and DevOps workflows, I focus on shipping clean, maintainable code that solves real-world challenges.",
-      "When I am not writing code, I am exploring cloud-native architectures, contributing to developer tools, or refining user experiences."
+      "I am a .NET developer with 5 years of hands-on experience building, testing and deploying web applications on the Microsoft stack: ASP.NET Core, Web API, MVC and Entity Framework backed by SQL Server, MySQL and PostgreSQL.",
+      "I work across the full delivery cycle: Angular and Bootstrap front ends, RESTful API design, Azure App Service and Azure DevOps CI/CD pipelines, Docker-based microservices, and maintaining legacy .NET Framework systems.",
+      "Highlights include a 20% system performance gain, a 30% server-cost reduction by migrating a legacy application from .NET Framework to .NET Core, and a 15% efficiency improvement through debugging and optimization."
     ],
-    resumeUrl: "#contact" // Replace with '/resume.pdf' when you place your PDF in the public folder
+    resumeUrl: "#contact"
   },
 
   socials: {
     github: "https://github.com/Poovarasan-L",
-    linkedin: "https://www.linkedin.com/in/poovarasan-l",
-    email: "mailto:poovarasan.dev@gmail.com",
-    twitter: "https://twitter.com"
+    linkedin: "https://www.linkedin.com/in/poovarasan-l-289557170",
+    email: "mailto:poovpoovarasan@gmail.com"
   },
 
   metrics: [
-    { label: "Architecture", value: "Full-Stack", detail: "End-to-end development" },
-    { label: "Core Stack", value: "React & Node", detail: "TypeScript & modern web" },
-    { label: "Reliability", value: "99.9%", detail: "Clean, robust code quality" },
-    { label: "Mindset", value: "Problem Solver", detail: "Continuous engineering growth" }
+    { label: "Experience", value: "5 Years", detail: "Professional .NET development" },
+    { label: "Performance", value: "+20%", detail: "System performance gain" },
+    { label: "Cost Savings", value: "-30%", detail: "Server cost after .NET Core migration" },
+    { label: "Efficiency", value: "+15%", detail: "Through debugging & optimization" }
   ],
 
   skillCategories: [
     {
-      id: "frontend",
-      name: "Frontend Development",
-      description: "Building responsive, accessible, and high-performance interactive interfaces",
-      skills: [
-        { name: "React.js", level: "Advanced", icon: "Code2" },
-        { name: "TypeScript", level: "Proficient", icon: "FileCode" },
-        { name: "JavaScript (ES6+)", level: "Advanced", icon: "Braces" },
-        { name: "Tailwind CSS", level: "Advanced", icon: "Palette" },
-        { name: "HTML5 / Semantic CSS", level: "Expert", icon: "Layout" },
-        { name: "Vite / Next.js", level: "Proficient", icon: "Zap" },
-        { name: "State Management (Redux/Zustand)", level: "Proficient", icon: "Cpu" },
-        { name: "Responsive UI & A11y", level: "Advanced", icon: "Smartphone" }
-      ]
-    },
-    {
       id: "backend",
-      name: "Backend & Systems",
-      description: "Designing RESTful APIs, microservices, and reliable server-side architecture",
+      name: "Backend & APIs",
+      description: "Designing secure, maintainable server-side applications and RESTful APIs",
       skills: [
-        { name: "Node.js", level: "Advanced", icon: "Server" },
-        { name: "Express.js", level: "Advanced", icon: "Boxes" },
-        { name: "RESTful API Architecture", level: "Advanced", icon: "Network" },
-        { name: "Python", level: "Proficient", icon: "Terminal" },
-        { name: "Authentication (JWT / OAuth2)", level: "Proficient", icon: "Key" },
-        { name: "Microservices", level: "Intermediate", icon: "Layers" },
-        { name: "GraphQL Basics", level: "Intermediate", icon: "Share2" },
-        { name: "WebSocket & Realtime", level: "Proficient", icon: "Activity" }
+        { name: "C#", level: "Advanced", icon: "Code2" },
+        { name: "ASP.NET Core", level: "Advanced", icon: "Server" },
+        { name: "ASP.NET MVC", level: "Advanced", icon: "Layers" },
+        { name: "Web API / REST", level: "Advanced", icon: "Send" },
+        { name: "Entity Framework / EF Core, LINQ", level: "Advanced", icon: "Boxes" },
+        { name: ".NET Framework to .NET Core migration", level: "Proficient", icon: "Zap" },
+        { name: "Microservices", level: "Proficient", icon: "Cpu" },
+        { name: "OAuth2 / OIDC (Azure AD B2C)", level: "Proficient", icon: "Key" }
       ]
     },
     {
       id: "databases",
-      name: "Databases & Caching",
-      description: "Data modeling, relational schemas, indexing, and performant caching",
+      name: "Databases",
+      description: "Schema design, stored procedures, SQL jobs and query optimization",
       skills: [
-        { name: "PostgreSQL", level: "Proficient", icon: "Database" },
-        { name: "MongoDB", level: "Advanced", icon: "Database" },
+        { name: "MS SQL Server", level: "Advanced", icon: "Database" },
+        { name: "Stored Procedures & SQL Jobs", level: "Advanced", icon: "HardDrive" },
         { name: "MySQL", level: "Proficient", icon: "HardDrive" },
-        { name: "Redis", level: "Proficient", icon: "Flame" },
-        { name: "Prisma ORM", level: "Proficient", icon: "Link" },
-        { name: "Mongoose", level: "Advanced", icon: "FolderGit2" }
+        { name: "PostgreSQL", level: "Proficient", icon: "Database" }
+      ]
+    },
+    {
+      id: "frontend",
+      name: "Frontend",
+      description: "Responsive UI built together with the frontend team",
+      skills: [
+        { name: "Angular", level: "Proficient", icon: "Code2" },
+        { name: "JavaScript / jQuery", level: "Proficient", icon: "Terminal" },
+        { name: "Bootstrap", level: "Advanced", icon: "Smartphone" },
+        { name: "HTML5 / CSS3", level: "Advanced", icon: "Code2" }
       ]
     },
     {
       id: "devops",
-      name: "DevOps & Tooling",
-      description: "Version control, CI/CD automation, cloud deployment, and developer toolchains",
+      name: "Cloud & DevOps",
+      description: "Deployment, CI/CD pipelines and source control",
       skills: [
-        { name: "Git & GitHub", level: "Advanced", icon: "GitBranch" },
-        { name: "Docker", level: "Proficient", icon: "Container" },
-        { name: "GitHub Actions CI/CD", level: "Proficient", icon: "PlayCircle" },
-        { name: "Linux & Bash Scripting", level: "Proficient", icon: "TerminalSquare" },
-        { name: "Postman / API Testing", level: "Advanced", icon: "Send" },
-        { name: "Vercel / Netlify / GH Pages", level: "Advanced", icon: "Cloud" }
+        { name: "Azure App Service", level: "Proficient", icon: "Cloud" },
+        { name: "Azure DevOps CI/CD", level: "Proficient", icon: "Zap" },
+        { name: "Docker", level: "Proficient", icon: "Boxes" },
+        { name: "Git / Azure Repos / TFS", level: "Advanced", icon: "GitBranch" },
+        { name: "SonarCloud & Jira", level: "Proficient", icon: "Flame" },
+        { name: "AWS", level: "Basic", icon: "Cloud" }
       ]
     }
   ],
 
   projects: [
     {
-      id: "cloudforge",
-      title: "CloudForge",
-      subtitle: "Full-Stack Cloud & Service Monitoring Dashboard",
+      id: "greenwave",
+      title: "GreenWave",
+      subtitle: "Business Registration & Management Platform",
       category: "fullstack",
-      description: "An interactive operations dashboard that monitors server metrics, container health, and API response latencies with real-time charting and alerts.",
-      techStack: ["React", "Node.js", "Tailwind CSS", "Chart.js", "Express", "Docker"],
-      githubUrl: "https://github.com/Poovarasan-L",
-      liveUrl: "https://github.com/Poovarasan-L",
+      description: "Built a business registration and management platform on .NET Core. Integrated Azure AD B2C for authentication, with Azure-hosted login and registration flows.",
+      techStack: [".NET Core", "Azure AD B2C", "Azure", "MS SQL Server"],
       featured: true,
-      stats: { stars: "Fast", metric: "Real-time SSE" }
+      stats: { metric: "Azure AD B2C" }
     },
     {
-      id: "pulseapi",
-      title: "PulseAPI Platform",
-      subtitle: "High-Throughput API Gateway & Analytics Service",
+      id: "ics-lockers",
+      title: "ICS Lockers",
+      subtitle: "Locker Management Web App & Mobile API",
       category: "backend",
-      description: "Engineered a microservice gateway handling request throttling, JWT token rotation, structured logging, and Redis-backed caching for sub-millisecond retrieval.",
-      techStack: ["Node.js", "Express", "Redis", "PostgreSQL", "Docker", "JWT"],
-      githubUrl: "https://github.com/Poovarasan-L",
-      liveUrl: "https://github.com/Poovarasan-L",
+      description: "Integrated PLC hardware with a web application to manage locker lock/unlock. Built the .NET Core Web API that powers the ICS mobile app, supporting both internet and intranet access.",
+      techStack: [".NET Core", "Web API", "PLC", "Barcode Scanner", "Azure", "MS SQL Server"],
       featured: true,
-      stats: { stars: "Sub-ms", metric: "Redis Caching" }
+      stats: { metric: "PLC integration" }
     },
     {
-      id: "nexus-ui",
-      title: "Nexus Glassmorphic UI Kit",
-      subtitle: "Modern Design System for Web Applications",
-      category: "frontend",
-      description: "A reusable, accessible component library crafted with Tailwind CSS and React featuring frosted glass surfaces, glowing borders, and accessible keyboard navigation.",
-      techStack: ["React", "Tailwind CSS", "Vite", "Lucide Icons", "WCAG 2.1"],
-      githubUrl: "https://github.com/Poovarasan-L",
-      liveUrl: "https://github.com/Poovarasan-L",
-      featured: true,
-      stats: { stars: "100%", metric: "Accessible" }
-    },
-    {
-      id: "dev-domain-registry",
-      title: "Developer Domain Automation",
-      subtitle: "Automated Subdomain DNS Registry & PR Automation",
-      category: "fullstack",
-      description: "A toolchain enabling automated validation, DNS record registration, and PR workflow synchronization for developer subdomain initiatives.",
-      techStack: ["JavaScript", "GitHub API", "Node.js", "CI/CD Actions"],
-      githubUrl: "https://github.com/Poovarasan-L/register",
-      liveUrl: "https://github.com/Poovarasan-L/register",
-      featured: false,
-      stats: { stars: "Automated", metric: "GitHub Actions" }
-    },
-    {
-      id: "aegis-auth",
-      title: "Aegis Secure Auth",
-      subtitle: "Zero-Trust Authentication & Session Microservice",
+      id: "carspa",
+      title: "CarSpa",
+      subtitle: "Admin Reporting & Data Migration",
       category: "backend",
-      description: "Lightweight plug-and-play authentication engine offering dual-token JWT verification, password hashing with Argon2, and rate-limiting against brute force attacks.",
-      techStack: ["Node.js", "MongoDB", "Express", "Argon2", "Jest"],
-      githubUrl: "https://github.com/Poovarasan-L",
-      liveUrl: "https://github.com/Poovarasan-L",
-      featured: false,
-      stats: { stars: "Secure", metric: "Argon2 + JWT" }
+      description: "Developed admin site reports for customers and stores. Used SQL jobs and stored procedures to transfer data from a Firebird database to SQL Server, and implemented store revenue and sales calculations across configurable date ranges.",
+      techStack: [".NET Framework", "SQL Server", "Firebird", "Stored Procedures"],
+      featured: true,
+      stats: { metric: "Firebird to SQL Server" }
     }
   ],
 
   experience: [
     {
-      period: "2023 - Present",
-      role: "Full-Stack Software Engineer & Builder",
-      organization: "Engineering Projects & Open Source",
-      description: "Designing end-to-end full-stack architectures, writing scalable backend services, and building responsive client applications with React and Node.js.",
+      period: "Jan 2023 - Present",
+      role: "Senior .NET Developer",
+      organization: "App Innovation Technologies, Coimbatore",
+      description: "Designing, writing and maintaining production web applications and APIs on the Microsoft stack.",
       highlights: [
-        "Architected modular web applications using Vite, React, and Tailwind CSS with sub-second page loads.",
-        "Implemented secure RESTful endpoints and optimized database querying across relational and document stores.",
-        "Established CI/CD automated deployment pipelines with GitHub Actions."
+        "Developed and maintained ASP.NET Core / MVC applications, improving system performance by 20%.",
+        "Migrated legacy applications from .NET Framework to .NET Core, reducing server costs by 30%.",
+        "Designed RESTful Web APIs for mobile and third-party integrations; used Entity Framework and LINQ for data access and query optimization.",
+        "Built responsive UI components with Angular and Bootstrap alongside the frontend team.",
+        "Built and maintained CI/CD pipelines in Azure DevOps, reducing deployment times; took part in code reviews, unit testing and debugging."
       ]
     },
     {
-      period: "2020 - 2024",
-      role: "Bachelor of Engineering in Computer Science",
-      organization: "University Education",
-      description: "Comprehensive coursework in Software Engineering, Object-Oriented Design, Computer Networks, Database Management Systems, and Cloud Computing.",
+      period: "Sep 2021 - Dec 2022",
+      role: "Junior .NET Developer",
+      organization: "TechUnity Inc, Coimbatore",
+      description: "Built and deployed web applications for healthcare and e-commerce clients.",
       highlights: [
-        "Focused on Distributed Systems, Cloud Architecture, and Web Technologies.",
-        "Led team capstone engineering projects incorporating modern full-stack frameworks.",
-        "Active participant in technical symposiums, hackathons, and developer workshops."
+        "Developed and deployed applications using ASP.NET MVC and C#.",
+        "Designed database schemas and wrote stored procedures in SQL Server.",
+        "Integrated third-party services and APIs; debugged and optimized code, increasing application efficiency by 15%.",
+        "Assisted senior developers with cloud-hosted applications on Azure and gathered requirements with product owners and business analysts."
+      ]
+    },
+    {
+      period: "June 2021",
+      role: "Bachelor of Engineering, Computer Science and Engineering",
+      organization: "CMS College of Engineering, Namakkal",
+      description: "Graduated June 2021 with a degree in Computer Science and Engineering.",
+      highlights: [
+        "+2 in Maths & Computer Science, Government Higher Secondary School, Kanneri Manthanai (2015)."
       ]
     }
   ],
@@ -179,19 +154,19 @@ export const portfolioData = {
   coreValues: [
     {
       title: "Clean & Maintainable Code",
-      description: "Writing self-documenting, modular code following SOLID principles, making systems easy to scale and refactor."
+      description: "Repository, Factory and Dependency Injection patterns, plus code reviews, to keep systems easy to change."
     },
     {
-      title: "Performance by Default",
-      description: "Optimizing bundle sizes, minimizing unnecessary re-renders, and implementing intelligent caching for maximum speed."
+      title: "Performance & Cost Awareness",
+      description: "Profiling, query tuning and platform migrations that measurably improve speed and reduce infrastructure cost."
     },
     {
-      title: "Modern Developer Experience",
-      description: "Leveraging type safety, fast Vite HMR, and automated CI/CD checks to ship features with high confidence."
+      title: "Reliable Delivery",
+      description: "Azure DevOps CI/CD, unit testing and SonarCloud checks so releases are repeatable and safe."
     },
     {
-      title: "User-Centered Engineering",
-      description: "Crafting intuitive layouts with fluid feedback, dark mode comfort, and accessible interaction patterns."
+      title: "Collaboration",
+      description: "Working closely with product owners, business analysts, QA and frontend teams across the full SDLC."
     }
   ]
 };
